@@ -1,8 +1,8 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Exec=exo-open --launch WebBrowser %u
-Icon=org.xfce.webbrowser
+Exec=/usr/lib/firefox/firefox %u
+Icon=firefox
 StartupNotify=true
 Terminal=false
 Categories=Network;X-XFCE;X-Xfce-Toplevel;
@@ -10,7 +10,8 @@ OnlyShowIn=XFCE;
 X-XFCE-MimeType=x-scheme-handler/http;x-scheme-handler/https;
 X-AppStream-Ignore=True
 Name=Web Browser
-Name[fr]=Navigateur Web
+Name[fr]=Firefox
 Comment=Browse the web
 Comment[fr]=Naviguer sur le Web
 X-XFCE-Source=file:///usr/share/applications/xfce4-web-browser.desktop
+Path=
